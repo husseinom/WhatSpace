@@ -1,5 +1,6 @@
 pub mod engine;
 pub mod epidemic;
+pub mod ack;
 
 pub use engine::RoutingEngine;
 pub use epidemic::NetworkGraph;
